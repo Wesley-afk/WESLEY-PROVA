@@ -39,7 +39,7 @@ const Cadastrar_Tarefa = () => {
         setDescricao_tarefa("");
         setSetor("");
         setPrioridade("");
-        navigate("/tarefas"); // Redireciona após cadastrar
+        navigate("/tarefas");
       })
       .catch((err) => {
         console.error("Erro:", err);

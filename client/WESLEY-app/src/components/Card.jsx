@@ -8,7 +8,7 @@ function BasicExample({titulo, desc, img, but}) {
       <Card.Body>
         <Card.Title>{titulo}</Card.Title>
         <Card.Text>
-          {desc} {/* Remova o <p> aqui! */}
+          {desc} 
         </Card.Text>
         {but}
       </Card.Body>
